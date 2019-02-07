@@ -1,6 +1,6 @@
 import UIKit
 
-extension UITableView {
+public extension UITableView {
 
     /// Tableview cell registration with nib file
     /// Usage **tableView.register(SomeCell.self)**
