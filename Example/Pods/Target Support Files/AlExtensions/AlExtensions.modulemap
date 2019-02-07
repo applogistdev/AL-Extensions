@@ -1,0 +1,6 @@
+framework module AlExtensions {
+  umbrella header "AlExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_AlExtensions_Example {
+  umbrella header "Pods-AlExtensions_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
