@@ -11,7 +11,7 @@ extension UITableView {
     }
 
     /// Defining cell in cellForRowAt function
-    /// Usage let cell = tableView.dequeueReusableCell(SomeCell.self, for: indexPath)
+    /// Usage **let cell = tableView.dequeueReusableCell(SomeCell.self, for: indexPath)**
     func dequeueReusableCell<Cell: UITableViewCell>(_ cellClass: Cell.Type,
                                                     for indexPath: IndexPath) -> Cell {
         let cellID = String(describing: cellClass.self)
