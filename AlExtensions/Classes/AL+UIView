@@ -1,0 +1,16 @@
+import UIKit
+
+public extension UIView {
+
+    /// Add subView from Nib
+    ///
+    /// - Usage:
+    ///      ```
+    ///      let subView: someView = .fromNib
+    ///      view.addSubView(subView)
+    ///      ```
+    public class func fromNib<T: UIView>() -> T {
+        return Bundle.main.loadNibNamed(String(describing: T.self), owner: nil, options: nil)!.first as! T
+    }
+  
+}
