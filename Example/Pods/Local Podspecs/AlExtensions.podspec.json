@@ -16,9 +16,11 @@
     "git": "https://github.com/applogistdev/AL-Extensions.git",
     "tag": "0.1.0"
   },
+  "swift_versions": "4.2",
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "AlExtensions/Classes/**/*",
-  "frameworks": "UIKit"
+  "frameworks": "UIKit",
+  "swift_version": "4.2"
 }

@@ -22,4 +22,23 @@ public extension UITableView {
         return someCell
     }
 
+
+    /// Reloads the tableview animated
+    /// - Parameter animation: Animation type
+    func reloadData(with animation: UITableView.RowAnimation) {
+        DispatchQueue.main.async {
+            UIView.transition(with: self,
+                              duration: 0.3,
+                              options: .transitionCrossDissolve,
+                              animations: {self.reloadData()},
+                              completion: nil)
+
+        }
+    }
+
+    /// Reloads the table animated with fade animation
+    func reloadAnimated() {
+        reloadData(with: .fade)
+    }
+
 }

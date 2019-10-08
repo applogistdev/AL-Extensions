@@ -49,4 +49,18 @@ extension Date {
     var isLastDayOfMonth: Bool {
         return dayAfter.month != month
     }
+
+    /// Returns formatted date
+    func formatted(format: String) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = format
+        return formatter.string(from: self)
+    }
+
+
+    /// Init a date with miliseconds
+    /// - Parameter milliseconds: Miliseconds 
+    init(milliseconds: Int64) {
+        self = Date(timeIntervalSince1970: TimeInterval(milliseconds) / 1000)
+    }
 }
