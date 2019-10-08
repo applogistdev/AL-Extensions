@@ -19,14 +19,6 @@ extension UIViewController {
         return UINib(nibName: name, bundle: .main)
     }
     
-    /// Changes Status bar with given style in parameter 
-    ///
-    /// - Parameter style: Desired status bar style
-    func setStatusBarStyle(_ style: UIStatusBarStyle) {
-        if let statusBar = UIApplication.shared.value(forKey: "statusBar") as? UIView {
-            statusBar.setValue(style == .lightContent ? UIColor.white : .black, forKey: "foregroundColor")
-        }
-    }
     
     /// Returns class name
     var className: String {
