@@ -45,4 +45,15 @@ public extension UIColor {
             alpha: CGFloat(1.0)
         )
     }
+    
+    /// Returns hex string of color
+    var hexString: NSString {
+        guard let colorRef =  self.cgColor.components else { return "#fff" }
+
+        let red: CGFloat = colorRef[safe: 0] ?? 0
+        let green: CGFloat = colorRef[safe: 1] ?? 0
+        let blue: CGFloat = colorRef[safe: 2] ?? 0
+
+        return NSString(format: "#%02lX%02lX%02lX", lroundf(Float(red * 255)), lroundf(Float(green * 255)), lroundf(Float(blue * 255)))
+    }
 }
