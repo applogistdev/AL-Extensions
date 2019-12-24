@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AlExtensions'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Useful extensions for Swift.'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.authors           = { 'sonifex' => 'soner.guler@applogist.com', 'ahmetsina' => 'asend.ustem@gmail.com' }
   s.source           = { :git => 'https://github.com/applogistdev/AL-Extensions.git', :tag => s.version.to_s}
-  s.swift_version = '4.2'
-  s.ios.deployment_target = '9.0'
+  s.swift_version = '5'
+  s.ios.deployment_target = '9.3'
   s.source_files = 'AlExtensions/Classes/**/*'
   s.frameworks = 'UIKit'
 end
