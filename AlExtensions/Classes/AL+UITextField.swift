@@ -2,7 +2,7 @@ import UIKit
 
 /// Max lenght control
 private var __maxLengths = [UITextField: Int]()
-extension UITextField {
+public extension UITextField {
     /// Cleans UITextField
     func clear() {
         self.text = nil

@@ -7,8 +7,8 @@
 
 import UIKit
 
-extension UIView {
-
+public extension UIView {
+    
     /// Fades in the view
     func fadeIn(duration: TimeInterval = 0.1) {
         if !self.isHidden {
@@ -22,7 +22,7 @@ extension UIView {
             }
         }
     }
-
+    
     /// Fades out the view
     func fadeOut(duration: TimeInterval = 0.1) {
         if self.isHidden {
