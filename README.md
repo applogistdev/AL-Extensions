@@ -1,5 +1,5 @@
 #  AL-Extensions :electric_plug:
-[![Language](https://img.shields.io/badge/swift-4.2-orange.svg)](http://swift.org)
+[![Language](https://img.shields.io/badge/swift-5-orange.svg)](http://swift.org)
 Useful extensions for UIKit in Swift language
 
 
