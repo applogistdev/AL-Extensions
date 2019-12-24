@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
 
     /// Trims the string from whitespaces
     func trim() -> String {
