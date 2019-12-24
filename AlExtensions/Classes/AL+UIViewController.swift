@@ -1,9 +1,11 @@
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
     /// Embeds UIViewController in UINavigationController
     func embedInNC() -> UINavigationController {
-        return UINavigationController(rootViewController: self)
+        let navVC = UINavigationController(rootViewController: self)
+        navVC.modalPresentationStyle = .fullScreen
+        return navVC
     }
     
     /// Dismiss keyboard when editing end.

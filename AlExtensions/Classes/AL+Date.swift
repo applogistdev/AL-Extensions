@@ -1,6 +1,6 @@
 import Foundation
 
-extension Date {
+public extension Date {
 	
     static var yesterday: Date { return Date().dayBefore }
 	
