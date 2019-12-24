@@ -3,7 +3,7 @@ import UIKit
 public extension UIApplication {
     
     /// Get visible ViewController from the app's keyWindow
-    public var visibleViewController: UIViewController? {
+    var visibleViewController: UIViewController? {
 
         guard let rootViewController = keyWindow?.rootViewController else {
             return nil
@@ -14,7 +14,7 @@ public extension UIApplication {
     /// Getting visible ViewController that is presented by UIViewController, UINavigationController or UITabbarController
     ///
     /// - Returns: Presented View Controller
-    public func getVisibleViewController(_ rootViewController: UIViewController) -> UIViewController? {
+    func getVisibleViewController(_ rootViewController: UIViewController) -> UIViewController? {
 
         if let presentedViewController = rootViewController.presentedViewController {
             return getVisibleViewController(presentedViewController)

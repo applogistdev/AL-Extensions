@@ -7,7 +7,7 @@ public extension UIImage {
     ///
     /// - Parameter color: The color you want to change
     /// - Returns: Colorized UIImage
-    public func colorized(with color: UIColor?) -> UIImage {
+    func colorized(with color: UIColor?) -> UIImage {
         guard let color = color else { return self }
 
         UIGraphicsBeginImageContextWithOptions(self.size, false, self.scale)
