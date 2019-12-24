@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.authors           = { 'sonifex' => 'soner.guler@applogist.com', 'ahmetsina' => 'asend.ustem@gmail.com' }
   s.source           = { :git => 'https://github.com/applogistdev/AL-Extensions.git', :tag => s.version.to_s}
   s.swift_version = '5'
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '9.3'
   s.source_files = 'AlExtensions/Classes/**/*'
   s.frameworks = 'UIKit'
 end
