@@ -20,10 +20,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/applogistdev/AL-Extensions'
+  s.homepage         = 'https://github.com/ahmetsina/AL-Extensions'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.authors           = { 'sonifex' => 'soner.guler@applogist.com', 'ahmetsina' => 'asend.ustem@gmail.com' }
-  s.source           = { :git => 'https://github.com/applogistdev/AL-Extensions.git', :tag => s.version.to_s, :branch => 'swift5' }
+  s.source           = { :git => 'https://github.com/ahmetsina/AL-Extensions.git', :tag => s.version.to_s, :branch => 'swift5' }
   s.swift_version = '4.2'
   s.ios.deployment_target = '9.0'
   s.source_files = 'AlExtensions/Classes/**/*'
