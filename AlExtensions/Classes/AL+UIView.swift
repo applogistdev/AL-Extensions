@@ -1,6 +1,6 @@
 import UIKit
 
-extension UIView {
+public extension UIView {
 
     @IBInspectable var cornerRadius: CGFloat {
         get {
@@ -38,5 +38,33 @@ extension UIView {
         let mask = CAShapeLayer()
         mask.path = path.cgPath
         layer.mask = mask
+    }
+    
+    /// Fades in the view
+    func fadeIn(duration: TimeInterval = 0.1) {
+        if !self.isHidden {
+            return
+        }
+        DispatchQueue.main.async {
+            self.alpha = 0.0
+            self.isHidden = false
+            UIView.animate(withDuration: duration) {
+                self.alpha = 1.0
+            }
+        }
+    }
+    
+    /// Fades out the view
+    func fadeOut(duration: TimeInterval = 0.1) {
+        if self.isHidden {
+            return
+        }
+        DispatchQueue.main.async {
+            UIView.animate(withDuration: duration, delay: 0, options: [.layoutSubviews], animations: {
+                self.alpha = 0.0
+            }, completion: { (done) in
+                self.isHidden = done
+            })
+        }
     }
 }
