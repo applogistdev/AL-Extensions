@@ -28,7 +28,7 @@ public extension UITextField {
     }
 }
 
-extension String {
+public extension String {
     func safelyLimitedTo(length n: Int) -> String {
         if (self.count <= n) {
             return self
