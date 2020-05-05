@@ -1,0 +1,495 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Date.swift",
+      "line": 5,
+      "symbol": "Date.yesterday",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Date.swift",
+      "line": 7,
+      "symbol": "Date.tomorrow",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Date.swift",
+      "line": 9,
+      "symbol": "Date.dayBefore",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Date.swift",
+      "line": 13,
+      "symbol": "Date.dayAfter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Date.swift",
+      "line": 17,
+      "symbol": "Date.midnight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Date.swift",
+      "line": 21,
+      "symbol": "Date.noon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Date.swift",
+      "line": 25,
+      "symbol": "Date.month",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Date.swift",
+      "line": 29,
+      "symbol": "Date.last7day",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Date.swift",
+      "line": 33,
+      "symbol": "Date.lastmonth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Date.swift",
+      "line": 37,
+      "symbol": "Date.last3month",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Date.swift",
+      "line": 41,
+      "symbol": "Date.last6month",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Date.swift",
+      "line": 45,
+      "symbol": "Date.lastyear",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Date.swift",
+      "line": 49,
+      "symbol": "Date.isLastDayOfMonth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Localizable.swift",
+      "line": 11,
+      "symbol": "Localizable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Localizable.swift",
+      "line": 17,
+      "symbol": "XIBLocalizable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+Localizable.swift",
+      "line": 50,
+      "symbol": "UIButton.selectedLocaleKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+UIColor.swift",
+      "line": 12,
+      "symbol": "UIColor.init(red:green:blue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+UIColor.swift",
+      "line": 19,
+      "symbol": "UIColor.init(rgb:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+UITextField.swift",
+      "line": 27,
+      "symbol": "UITextField.placeholderColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+UIView.swift",
+      "line": 5,
+      "symbol": "UIView.cornerRadius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+UIView.swift",
+      "line": 15,
+      "symbol": "UIView.borderWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/AL+UIView.swift",
+      "line": 24,
+      "symbol": "UIView.borderColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 12,
+      "symbol": "UIView.anchor()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 14,
+      "symbol": "UIView.top",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 15,
+      "symbol": "UIView.left",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 16,
+      "symbol": "UIView.bottom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 17,
+      "symbol": "UIView.right",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 18,
+      "symbol": "UIView.height",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 19,
+      "symbol": "UIView.width",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 20,
+      "symbol": "UIView.centerX",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 21,
+      "symbol": "UIView.centerY",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 24,
+      "symbol": "Anchor",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 25,
+      "symbol": "Anchor.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 26,
+      "symbol": "Anchor.top",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 27,
+      "symbol": "Anchor.left",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 28,
+      "symbol": "Anchor.bottom",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 29,
+      "symbol": "Anchor.right",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 30,
+      "symbol": "Anchor.height",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 31,
+      "symbol": "Anchor.width",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 32,
+      "symbol": "Anchor.centerX",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 33,
+      "symbol": "Anchor.centerY",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 35,
+      "symbol": "Anchor.init(view:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 115,
+      "symbol": "Anchor.topToSuperview(constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 122,
+      "symbol": "Anchor.leftToSuperview(constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 129,
+      "symbol": "Anchor.bottomToSuperview(constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 136,
+      "symbol": "Anchor.rightToSuperview(constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 143,
+      "symbol": "Anchor.edgesToSuperview(omitEdge:insets:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 154,
+      "symbol": "Anchor.centerXToSuperview()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 161,
+      "symbol": "Anchor.centerYToSuperview()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 168,
+      "symbol": "Anchor.centerToSuperview()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 177,
+      "symbol": "Anchor.top(to:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 181,
+      "symbol": "Anchor.left(to:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 185,
+      "symbol": "Anchor.bottom(to:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 189,
+      "symbol": "Anchor.right(to:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 194,
+      "symbol": "Anchor.top(greaterOrEqual:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 198,
+      "symbol": "Anchor.left(greaterOrEqual:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 202,
+      "symbol": "Anchor.bottom(greaterOrEqual:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 206,
+      "symbol": "Anchor.right(greaterOrEqual:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 211,
+      "symbol": "Anchor.top(lesserOrEqual:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 215,
+      "symbol": "Anchor.left(lesserOrEqual:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 219,
+      "symbol": "Anchor.bottom(lesserOrEqual:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 223,
+      "symbol": "Anchor.right(lesserOrEqual:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 228,
+      "symbol": "Anchor.height(constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 232,
+      "symbol": "Anchor.height(to:multiplier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 236,
+      "symbol": "Anchor.width(constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 240,
+      "symbol": "Anchor.width(to:multiplier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 245,
+      "symbol": "Anchor.centerX(to:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 249,
+      "symbol": "Anchor.centerY(to:constant:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 254,
+      "symbol": "Anchor.activate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/AlExtensions/Classes/Anchor.swift",
+      "line": 262,
+      "symbol": "Anchor.activated()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/sonerguler/Applogist/Frameworks/AL-Extensions"
+}
