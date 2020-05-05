@@ -8,6 +8,7 @@
 import UIKit
 
 public extension UIColor {
+    
     convenience init(red: Int, green: Int, blue: Int) {
         assert(red >= 0 && red <= 255, "Invalid red component")
         assert(green >= 0 && green <= 255, "Invalid green component")
@@ -23,8 +24,10 @@ public extension UIColor {
         )
     }
 
-    /// Return uicolor generated with hex code
-    static func hex (hex: String) -> UIColor {
+    /// UIColor generetor with hex code
+    /// - Parameter hex: The hex value with # or without it
+    /// - Returns: UIColor for hex code
+    static func hex(hex: String) -> UIColor {
         var cString: String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
 
         if cString.hasPrefix("#") {
@@ -55,5 +58,34 @@ public extension UIColor {
         let blue: CGFloat = colorRef[safe: 2] ?? 0
 
         return NSString(format: "#%02lX%02lX%02lX", lroundf(Float(red * 255)), lroundf(Float(green * 255)), lroundf(Float(blue * 255)))
+    }
+    
+    /// Modify UIColor value with params
+    /// - Parameters:
+    ///   - hue: Hue value
+    ///   - additionalSaturation: Saturation value
+    ///   - additionalBrightness: Brightness value
+    /// - Returns: New UIColor
+    func modified(withAdditionalHue hue: CGFloat = 0.0,
+                  additionalSaturation: CGFloat = 0.0,
+                  additionalBrightness: CGFloat) -> UIColor {
+        
+        var currentHue: CGFloat = 0.0
+        var currentSaturation: CGFloat = 0.0
+        var currentBrigthness: CGFloat = 0.0
+        var currentAlpha: CGFloat = 0.0
+        
+        if self.getHue(&currentHue,
+                       saturation: &currentSaturation,
+                       brightness: &currentBrigthness,
+                       alpha: &currentAlpha) {
+            let newColor = UIColor(hue: currentHue + hue,
+                                   saturation: currentSaturation + additionalSaturation,
+                                   brightness: currentBrigthness + additionalBrightness,
+                                   alpha: currentAlpha)
+            return newColor
+        } else {
+            return self
+        }
     }
 }

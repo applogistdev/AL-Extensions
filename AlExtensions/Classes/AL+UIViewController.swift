@@ -1,10 +1,13 @@
 import UIKit
 
 public extension UIViewController {
+    
     /// Embeds UIViewController in UINavigationController
-    func embedInNC() -> UINavigationController {
+    func embedInNC(isFullScreen: Bool = true) -> UINavigationController {
         let navVC = UINavigationController(rootViewController: self)
-        navVC.modalPresentationStyle = .fullScreen
+        if isFullScreen {
+            navVC.modalPresentationStyle = .fullScreen
+        }
         return navVC
     }
     

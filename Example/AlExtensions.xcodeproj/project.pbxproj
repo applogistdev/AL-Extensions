@@ -212,7 +212,6 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = BB59JFKRY2;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -487,7 +486,7 @@
 			baseConfigurationReference = 0F1E2204EEF8AE54B5FBAD09 /* Pods-AlExtensions_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BB59JFKRY2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AlExtensions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -503,7 +502,7 @@
 			baseConfigurationReference = 11CBF4BFD86CC8524E5C26B3 /* Pods-AlExtensions_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BB59JFKRY2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AlExtensions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

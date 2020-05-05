@@ -18,8 +18,21 @@
 		4AC0269379D8576215009DA39888C336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		4C9A296955C26AFAE134BA0F79B91A6A /* AlExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 820B889C9121B9FEBDD31625053F4250 /* AlExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		556C7CB2B11B1F1838A192CE35DEA3BC /* Pods-AlExtensions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB633745539B25A7A4DAE803C527C9C1 /* Pods-AlExtensions_Example-dummy.m */; };
-		83596941234D309000924BC9 /* AL+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83596940234D309000924BC9 /* AL+UIView.swift */; };
-		83596943234D312B00924BC9 /* AL+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83596942234D312B00924BC9 /* AL+String.swift */; };
+		83186BC22461AE990004FD29 /* AL+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83186BB52461AE980004FD29 /* AL+Localizable.swift */; };
+		83186BC32461AE990004FD29 /* AL-UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83186BB62461AE980004FD29 /* AL-UICollectionView.swift */; };
+		83186BC42461AE990004FD29 /* AL+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83186BB72461AE980004FD29 /* AL+Double.swift */; };
+		83186BC52461AE990004FD29 /* AL+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83186BB82461AE980004FD29 /* AL+UserDefaults.swift */; };
+		83186BC62461AE990004FD29 /* AL+UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83186BB92461AE980004FD29 /* AL+UIControl.swift */; };
+		83186BC72461AE990004FD29 /* AL+UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83186BBA2461AE980004FD29 /* AL+UINavigationBar.swift */; };
+		83186BC82461AE990004FD29 /* AL+UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83186BBB2461AE980004FD29 /* AL+UIDevice.swift */; };
+		83186BC92461AE990004FD29 /* AL-Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83186BBC2461AE990004FD29 /* AL-Data.swift */; };
+		83186BCA2461AE990004FD29 /* AL+Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83186BBD2461AE990004FD29 /* AL+Bool.swift */; };
+		83186BCB2461AE990004FD29 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83186BBE2461AE990004FD29 /* Anchor.swift */; };
+		83186BCC2461AE990004FD29 /* AL+TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83186BBF2461AE990004FD29 /* AL+TimeInterval.swift */; };
+		83186BCD2461AE990004FD29 /* AL+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83186BC02461AE990004FD29 /* AL+Bundle.swift */; };
+		83186BCE2461AE990004FD29 /* AL+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83186BC12461AE990004FD29 /* AL+Int.swift */; };
+		83ED62BB2461910100510DA0 /* AL+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ED62B92461910100510DA0 /* AL+String.swift */; };
+		83ED62BC2461910100510DA0 /* AL+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ED62BA2461910100510DA0 /* AL+UIView.swift */; };
 		B1F85143DB7C05FD19642118E6C7284B /* AL+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235709466CA825AAE3E56DD7ED1CE217 /* AL+UIViewController.swift */; };
 		B6F5997C80CD715654187A56C8DCC082 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		BF4E55AE481E2394931354617A8724A8 /* AL+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE634EB4C6302E03B455B8A7AAD6BB2 /* AL+Collection.swift */; };
@@ -74,8 +87,21 @@
 		7520C8690EF94C661A395F28C9EBE0F3 /* AL+UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AL+UIColor.swift"; path = "AlExtensions/Classes/AL+UIColor.swift"; sourceTree = "<group>"; };
 		78B052DB771E566C2928EC950E245152 /* Pods-AlExtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlExtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
 		820B889C9121B9FEBDD31625053F4250 /* AlExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlExtensions-umbrella.h"; sourceTree = "<group>"; };
-		83596940234D309000924BC9 /* AL+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AL+UIView.swift"; sourceTree = "<group>"; };
-		83596942234D312B00924BC9 /* AL+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AL+String.swift"; sourceTree = "<group>"; };
+		83186BB52461AE980004FD29 /* AL+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AL+Localizable.swift"; path = "AlExtensions/Classes/AL+Localizable.swift"; sourceTree = "<group>"; };
+		83186BB62461AE980004FD29 /* AL-UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AL-UICollectionView.swift"; path = "AlExtensions/Classes/AL-UICollectionView.swift"; sourceTree = "<group>"; };
+		83186BB72461AE980004FD29 /* AL+Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AL+Double.swift"; path = "AlExtensions/Classes/AL+Double.swift"; sourceTree = "<group>"; };
+		83186BB82461AE980004FD29 /* AL+UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AL+UserDefaults.swift"; path = "AlExtensions/Classes/AL+UserDefaults.swift"; sourceTree = "<group>"; };
+		83186BB92461AE980004FD29 /* AL+UIControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AL+UIControl.swift"; path = "AlExtensions/Classes/AL+UIControl.swift"; sourceTree = "<group>"; };
+		83186BBA2461AE980004FD29 /* AL+UINavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AL+UINavigationBar.swift"; path = "AlExtensions/Classes/AL+UINavigationBar.swift"; sourceTree = "<group>"; };
+		83186BBB2461AE980004FD29 /* AL+UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AL+UIDevice.swift"; path = "AlExtensions/Classes/AL+UIDevice.swift"; sourceTree = "<group>"; };
+		83186BBC2461AE990004FD29 /* AL-Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AL-Data.swift"; path = "AlExtensions/Classes/AL-Data.swift"; sourceTree = "<group>"; };
+		83186BBD2461AE990004FD29 /* AL+Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AL+Bool.swift"; path = "AlExtensions/Classes/AL+Bool.swift"; sourceTree = "<group>"; };
+		83186BBE2461AE990004FD29 /* Anchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Anchor.swift; path = AlExtensions/Classes/Anchor.swift; sourceTree = "<group>"; };
+		83186BBF2461AE990004FD29 /* AL+TimeInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AL+TimeInterval.swift"; path = "AlExtensions/Classes/AL+TimeInterval.swift"; sourceTree = "<group>"; };
+		83186BC02461AE990004FD29 /* AL+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AL+Bundle.swift"; path = "AlExtensions/Classes/AL+Bundle.swift"; sourceTree = "<group>"; };
+		83186BC12461AE990004FD29 /* AL+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AL+Int.swift"; path = "AlExtensions/Classes/AL+Int.swift"; sourceTree = "<group>"; };
+		83ED62B92461910100510DA0 /* AL+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AL+String.swift"; path = "AlExtensions/Classes/AL+String.swift"; sourceTree = "<group>"; };
+		83ED62BA2461910100510DA0 /* AL+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AL+UIView.swift"; path = "AlExtensions/Classes/AL+UIView.swift"; sourceTree = "<group>"; };
 		91DAB4D5DCBDDD660C7C91BF072356F8 /* Pods-AlExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		928E95212ADFDE5D7C504B19346DB348 /* Pods-AlExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -148,8 +174,21 @@
 		2BECFF24A74AFC94A67F83F94AD3BBA9 /* AlExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				83596940234D309000924BC9 /* AL+UIView.swift */,
-				83596942234D312B00924BC9 /* AL+String.swift */,
+				83186BBE2461AE990004FD29 /* Anchor.swift */,
+				83186BBC2461AE990004FD29 /* AL-Data.swift */,
+				83186BB62461AE980004FD29 /* AL-UICollectionView.swift */,
+				83186BBD2461AE990004FD29 /* AL+Bool.swift */,
+				83186BC02461AE990004FD29 /* AL+Bundle.swift */,
+				83186BB72461AE980004FD29 /* AL+Double.swift */,
+				83186BC12461AE990004FD29 /* AL+Int.swift */,
+				83186BB52461AE980004FD29 /* AL+Localizable.swift */,
+				83186BBF2461AE990004FD29 /* AL+TimeInterval.swift */,
+				83186BB92461AE980004FD29 /* AL+UIControl.swift */,
+				83186BBB2461AE980004FD29 /* AL+UIDevice.swift */,
+				83186BBA2461AE980004FD29 /* AL+UINavigationBar.swift */,
+				83186BB82461AE980004FD29 /* AL+UserDefaults.swift */,
+				83ED62B92461910100510DA0 /* AL+String.swift */,
+				83ED62BA2461910100510DA0 /* AL+UIView.swift */,
 				1AE634EB4C6302E03B455B8A7AAD6BB2 /* AL+Collection.swift */,
 				0987FD1DAD77679B23422188BE90A063 /* AL+Date.swift */,
 				11FBF4850BE94946C8DA5A23C7645D31 /* AL+UIApplication.swift */,
@@ -397,16 +436,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF4E55AE481E2394931354617A8724A8 /* AL+Collection.swift in Sources */,
+				83186BC42461AE990004FD29 /* AL+Double.swift in Sources */,
+				83186BC32461AE990004FD29 /* AL-UICollectionView.swift in Sources */,
+				83186BCA2461AE990004FD29 /* AL+Bool.swift in Sources */,
 				04C20E23EA85827A9C045495719CD462 /* AL+Date.swift in Sources */,
 				01C40D452FEA5D56589AECE208DAF42F /* AL+UIApplication.swift in Sources */,
-				83596941234D309000924BC9 /* AL+UIView.swift in Sources */,
 				017A6E2E52917867D82AE2D054833474 /* AL+UIColor.swift in Sources */,
+				83186BC22461AE990004FD29 /* AL+Localizable.swift in Sources */,
+				83186BC72461AE990004FD29 /* AL+UINavigationBar.swift in Sources */,
+				83ED62BB2461910100510DA0 /* AL+String.swift in Sources */,
 				F2858F2B13C35095F2E35AAC2BFCFD08 /* AL+UIImage.swift in Sources */,
+				83186BCB2461AE990004FD29 /* Anchor.swift in Sources */,
+				83186BC82461AE990004FD29 /* AL+UIDevice.swift in Sources */,
+				83ED62BC2461910100510DA0 /* AL+UIView.swift in Sources */,
 				322F3DF23B676CD2CF9607B074F9D59D /* AL+UITableView.swift in Sources */,
+				83186BCC2461AE990004FD29 /* AL+TimeInterval.swift in Sources */,
+				83186BC62461AE990004FD29 /* AL+UIControl.swift in Sources */,
 				D01BF3F0B26EEE6C448126860B80C29F /* AL+UITextField.swift in Sources */,
+				83186BCE2461AE990004FD29 /* AL+Int.swift in Sources */,
+				83186BCD2461AE990004FD29 /* AL+Bundle.swift in Sources */,
 				B1F85143DB7C05FD19642118E6C7284B /* AL+UIViewController.swift in Sources */,
+				83186BC52461AE990004FD29 /* AL+UserDefaults.swift in Sources */,
 				0DD82868BB9CE0EE018A287A8DC054F9 /* AlExtensions-dummy.m in Sources */,
-				83596943234D312B00924BC9 /* AL+String.swift in Sources */,
+				83186BC92461AE990004FD29 /* AL-Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

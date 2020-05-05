@@ -50,13 +50,14 @@ public extension Date {
         return dayAfter.month != month
     }
 
-    /// Returns formatted date
+    /// Date formatter with custom format
+    /// - Parameter format: Format (etc. dd/mm/yyyyy)
+    /// - Returns: Formatted date in string
     func formatted(format: String) -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = format
         return formatter.string(from: self)
     }
-
 
     /// Init a date with miliseconds
     /// - Parameter milliseconds: Miliseconds 

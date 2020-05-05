@@ -2,7 +2,9 @@ import UIKit
 
 /// Max lenght control
 private var __maxLengths = [UITextField: Int]()
+
 public extension UITextField {
+    
     /// Cleans UITextField
     func clear() {
         self.text = nil
@@ -22,13 +24,24 @@ public extension UITextField {
         }
     }
     
-    @objc func fix(textField: UITextField) {
+    @IBInspectable var placeholderColor: UIColor {
+        get {
+            return attributedPlaceholder?.attribute(.foregroundColor, at: 0, effectiveRange: nil) as? UIColor ?? .clear
+        }
+        set {
+            guard let attributedPlaceholder = attributedPlaceholder else { return }
+            let attributes: [NSAttributedString.Key: UIColor] = [.foregroundColor: newValue]
+            self.attributedPlaceholder = NSAttributedString(string: attributedPlaceholder.string, attributes: attributes)
+        }
+    }
+    
+    @objc private func fix(textField: UITextField) {
         let t = textField.text
         textField.text = t?.safelyLimitedTo(length: maxLength)
     }
 }
 
-public extension String {
+private extension String {
     func safelyLimitedTo(length n: Int) -> String {
         if (self.count <= n) {
             return self
