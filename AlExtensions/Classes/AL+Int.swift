@@ -14,6 +14,6 @@ extension Int {
     func convertSecondToDigitResult() -> String {
         let minute = (self % 3600) / 60
         let second = (self % 3600) % 60
-        return String(format: "%0.2d:%0.2d", minutes, seconds)
+        return String(format: "%0.2d:%0.2d", minute, second)
     }
 }

@@ -1,0 +1,11 @@
+framework module AlExtensions {
+  umbrella header "AlExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AlExtensions.Swift {
+    header "AlExtensions-Swift.h"
+    requires objc
+}
