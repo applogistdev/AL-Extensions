@@ -5,10 +5,22 @@
 Useful extensions for UIKit in Swift language
 
 
+
 ## Installation
 
-ALBusSeatView is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### Swift Package Manager
+
+Once you have your Swift package set up, adding `ALExtensions` as a dependency is as easy as adding it to the dependencies value of your `Package.swift`.
+
+```swift
+dependencies: [
+.package(url: "https://github.com/applogistdev/AL-Extensions.git", from: "0.4.0")
+]
+```
+
+### CocoaPods
+
+To integrate `AlExtensions` into your Xcode project using [CocoaPods](http://cocoapods.org), specify it in your `Podfile`
 
 ```ruby
 pod 'AlExtensions'
