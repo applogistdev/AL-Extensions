@@ -16,7 +16,8 @@ let package = Package(
     targets: [
         .target(
             name: "AL-Extensions",
-            dependencies: []),
+            dependencies: [],
+            path: "Sources"),
         .testTarget(
             name: "AL-ExtensionsTests",
             dependencies: ["AL-Extensions"]),
