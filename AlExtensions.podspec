@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/applogistdev/AL-Extensions.git', :tag => s.version.to_s}
   s.swift_version = '5'
   s.ios.deployment_target = '9.3'
-  s.source_files = 'AlExtensions/Classes/**/*'
+  s.source_files = 'Source/AlExtensions/Classes/**/*'
   s.frameworks = 'UIKit'
 end
