@@ -13,10 +13,15 @@ extension TimeInterval {
     /// - Returns: Digit value (etc. 02:30)
     func convertMilisecondToDigitResult() -> String {
         
-        let time = NSInteger(self)
-        let seconds = time % 60
-        let minutes = (time / 60) % 60
-        let hours = (time / 3600)
+        /*
+         int seconds = (int) (milliseconds / 1000) % 60 ;
+         int minutes = (int) ((milliseconds / (1000*60)) % 60);
+         int hours   = (int) ((milliseconds / (1000*60*60)) % 24);
+         */
+        
+        let seconds = Int((self / 1000.0).truncatingRemainder(dividingBy: 60))
+        let minutes = Int((self / (1000.0 * 60.0)).truncatingRemainder(dividingBy: 60))
+        let hours = Int((self / (1000.0 * 60.0 * 60.0)).truncatingRemainder(dividingBy: 24))
         if hours > 0 {
             return String(format: "%0.2d:%0.2d:%0.2d", hours, minutes, seconds)
         } else {
