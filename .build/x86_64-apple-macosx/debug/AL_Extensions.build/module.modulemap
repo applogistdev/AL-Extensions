@@ -1,0 +1,4 @@
+module AL_Extensions {
+    header "/Users/sonerguler/Applogist/Frameworks/AL-Extensions/.build/x86_64-apple-macosx/debug/AL_Extensions.build/AL-Extensions-Swift.h"
+    requires objc
+}

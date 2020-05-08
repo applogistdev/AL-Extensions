@@ -1,0 +1,25 @@
+{
+  "allExecutables" : [
+
+  ],
+  "builtTestProducts" : [
+    {
+      "packageName" : "ALExtensions",
+      "productName" : "ALExtensionsPackageTests",
+      "testBinary" : "\/Users\/sonerguler\/Applogist\/Frameworks\/AL-Extensions\/.build\/x86_64-apple-macosx\/debug\/ALExtensionsPackageTests.xctest\/Contents\/MacOS\/ALExtensionsPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+
+  ],
+  "swiftTargetMap" : {
+    "C.AL-Extensions-debug.module" : "AL-Extensions",
+    "C.AL-ExtensionsTests-debug.module" : "AL-ExtensionsTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

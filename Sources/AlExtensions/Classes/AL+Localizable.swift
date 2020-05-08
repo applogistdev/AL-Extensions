@@ -5,7 +5,7 @@
 //  Created by Soner Güler on 5.05.2020.
 //
 
-import Foundation
+import UIKit
 
 
 public protocol Localizable {
