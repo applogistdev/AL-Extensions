@@ -5,9 +5,10 @@ import PackageDescription
 
 let package = Package(
     name: "ALExtensions",
+    platforms: [.iOS(.v9)],
     products: [
         .library(
-            name: "AL-Extensions",
+            name: "ALExtensions",
             targets: ["AL-Extensions"]),
     ],
     dependencies: [

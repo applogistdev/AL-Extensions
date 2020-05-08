@@ -1,6 +1,6 @@
 {
   "name": "AlExtensions",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "Useful extensions for Swift.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/applogistdev/AL-Extensions",
@@ -9,18 +9,18 @@
     "file": "LICENSE"
   },
   "authors": {
-    "sonifex": "soner.guler@applogist.com",
+    "sonifex": "sonerguler93@gmail.com",
     "ahmetsina": "asend.ustem@gmail.com"
   },
   "source": {
     "git": "https://github.com/applogistdev/AL-Extensions.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
-  "swift_versions": "4.2",
+  "swift_versions": "5",
   "platforms": {
-    "ios": "9.0"
+    "ios": "9.3"
   },
-  "source_files": "AlExtensions/Classes/**/*",
+  "source_files": "Sources/AlExtensions/Classes/**/*",
   "frameworks": "UIKit",
-  "swift_version": "4.2"
+  "swift_version": "5"
 }

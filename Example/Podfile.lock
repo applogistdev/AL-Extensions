@@ -1,5 +1,5 @@
 PODS:
-  - AlExtensions (0.1.0)
+  - AlExtensions (0.3.0)
 
 DEPENDENCIES:
   - AlExtensions (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AlExtensions: 7685253d297981f08339b87e28d43490f77af421
+  AlExtensions: 2f37d2728d615973e05861f2b523903fe7501445
 
 PODFILE CHECKSUM: 7425468f9153fd2d568abb6e30d78531b5a71574
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.9.0
