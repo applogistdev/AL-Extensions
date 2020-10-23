@@ -43,7 +43,7 @@ extension Double {
     }
     
     /// Converts degree to radian
-    func deg2rad() -> Double {
-        return self * .pi / 180
+    var deg2rad : Double {
+        self * .pi / 180
     }
 }

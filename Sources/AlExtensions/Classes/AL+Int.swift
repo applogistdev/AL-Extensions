@@ -9,15 +9,15 @@ import Foundation
 
 extension Int {
     
-    /// Converts seconds value to digit reprensentable string result
+    /// Returns seconds value to digit reprensentable string result
     /// - Returns: Digit value (etc. 02:30)
-    func convertSecondToDigitResult() -> String {
+    var secondToDigitResult : String {
         let minute = (self % 3600) / 60
         let second = (self % 3600) % 60
         return String(format: "%0.2d:%0.2d", minute, second)
     }
     
-    func convertMilisecondToDigitResult() -> String {
-        return Double(self).convertMilisecondToDigitResult()
+    var milisecondToDigitResult : String {
+        Double(self).convertMilisecondToDigitResult
     }
 }

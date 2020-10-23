@@ -10,12 +10,12 @@ import Foundation
 extension Bool {
     
     /// Returns 1 == true || 2 == false
-    func toInt() -> Int {
-        return self ? 1 : 0
+    var toInt: Int {
+        self ? 1 : 0
     }
     
     /// Returns "true" or "false
-    func toStr() -> String {
-        return self ? "true" : "false"
+    var toStr : String {
+        String(self)
     }
 }
