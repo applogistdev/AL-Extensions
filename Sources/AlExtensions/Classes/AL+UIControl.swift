@@ -19,7 +19,7 @@ class ClosureSleeve {
     }
 }
 
-extension UIControl {
+public extension UIControl {
     
     /// Add Action with closure style
     /// - Parameters:
