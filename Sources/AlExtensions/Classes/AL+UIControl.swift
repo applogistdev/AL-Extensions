@@ -10,7 +10,7 @@ import UIKit
 public class ClosureSleeve {
     let closure: () -> Void
     
-    init (_ closure: @escaping () -> Void) {
+    public init (_ closure: @escaping () -> Void) {
         self.closure = closure
     }
     
@@ -25,7 +25,7 @@ public extension UIControl {
     /// - Parameters:
     ///   - controlEvents: Countrol Event
     ///   - closure: Handler closure
-    public func addAction(for controlEvents: UIControl.Event, _ closure: @escaping () -> Void) {
+    func addAction(for controlEvents: UIControl.Event, _ closure: @escaping () -> Void) {
         let sleeve = ClosureSleeve(closure)
         addTarget(sleeve, action: #selector(ClosureSleeve.invoke), for: controlEvents)
         objc_setAssociatedObject(self, "[\(arc4random())]", sleeve, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN)
@@ -34,7 +34,7 @@ public extension UIControl {
     
     /// Add Tap Action (.touchUpInside)
     /// - Parameter closure: Tap handler closure
-    public func addTapAction(_ closure: @escaping () -> Void) {
+    func addTapAction(_ closure: @escaping () -> Void) {
         addAction(for: .touchUpInside, closure)
     }
 }
