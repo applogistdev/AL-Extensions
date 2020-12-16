@@ -18,6 +18,6 @@ extension Int {
     }
     
     var milisecondToDigitResult : String {
-        Double(self).convertMilisecondToDigitResult
+        Double(self).convertMilisecondToDigitResult()
     }
 }
