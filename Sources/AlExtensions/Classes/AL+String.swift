@@ -39,6 +39,6 @@ public extension String {
     
     /// Return String from HTML content
     var html2String : String? {
-        self.html2AttributedString()?.string
+        self.html2AttributedString?.string
     }
 }
