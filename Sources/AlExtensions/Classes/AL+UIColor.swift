@@ -88,4 +88,38 @@ public extension UIColor {
             return self
         }
     }
+    
+    /// Lighten a color.
+    ///
+    ///     let color = Color(red: r, green: g, blue: b, alpha: a)
+    ///     let lighterColor: Color = color.lighten(by: 0.2)
+    ///
+    /// - Parameter percentage: Percentage by which to lighten the color.
+    /// - Returns: A lightened color.
+    func lighten(by percentage: CGFloat = 0.2) -> UIColor {
+        // https://stackoverflow.com/questions/38435308/swift-get-lighter-and-darker-color-variations-for-a-given-uicolor
+        var red: CGFloat = 0, green: CGFloat = 0, blue: CGFloat = 0, alpha: CGFloat = 0
+        getRed(&red, green: &green, blue: &blue, alpha: &alpha)
+        return UIColor(red: min(red + percentage, 1.0),
+                     green: min(green + percentage, 1.0),
+                     blue: min(blue + percentage, 1.0),
+                     alpha: alpha)
+    }
+
+    ///  Darken a color.
+    ///
+    ///     let color = Color(red: r, green: g, blue: b, alpha: a)
+    ///     let darkerColor: Color = color.darken(by: 0.2)
+    ///
+    /// - Parameter percentage: Percentage by which to darken the color.
+    /// - Returns: A darkened color.
+    func darken(by percentage: CGFloat = 0.2) -> UIColor {
+        // https://stackoverflow.com/questions/38435308/swift-get-lighter-and-darker-color-variations-for-a-given-uicolor
+        var red: CGFloat = 0, green: CGFloat = 0, blue: CGFloat = 0, alpha: CGFloat = 0
+        getRed(&red, green: &green, blue: &blue, alpha: &alpha)
+        return UIColor(red: max(red - percentage, 0),
+                     green: max(green - percentage, 0),
+                     blue: max(blue - percentage, 0),
+                     alpha: alpha)
+    }
 }
