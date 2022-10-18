@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 public extension UIColor {
     
@@ -122,4 +123,33 @@ public extension UIColor {
                      blue: max(blue - percentage, 0),
                      alpha: alpha)
     }
+    
+    /// Set light and dark color as trait collection
+	/// - Parameters:
+	///   - lightModeColor: Color for light mode
+	///   - darkModeColor: Color for dark mode
+	convenience init(
+		   light lightModeColor: @escaping @autoclosure () -> UIColor,
+		   dark darkModeColor: @escaping @autoclosure () -> UIColor
+		) {
+		   self.init { traitCollection in
+			   switch traitCollection.userInterfaceStyle {
+			   case .light:
+				   return lightModeColor()
+			   case .dark:
+				   return darkModeColor()
+			   default:
+				   return lightModeColor()
+			   }
+		   }
+	   }
+	
+	/// Get dark version of color from asset
+	var dark: UIColor  { resolvedColor(with: .init(userInterfaceStyle: .dark))  }
+	
+	/// Get light version of color from asset
+	var light: UIColor { resolvedColor(with: .init(userInterfaceStyle: .light)) }
+	
+	/// Get as Color in SwiftUI
+	var asColor : Color { Color(self) }
 }
