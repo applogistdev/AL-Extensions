@@ -1,13 +1,6 @@
-//
-//  UIStackView+Extensions.swift
-//  
-//
-//  Created by Ahmet Sina on 18.10.2022.
-//
-
 import UIKit
 
-extension UIStackView {
+public extension UIStackView {
 	
 	@discardableResult
 	/// Remove all arranged sub views from stack view
