@@ -1,10 +1,3 @@
-//
-//  KeyDecodingStrategy+Extensions.swift
-//  
-//
-//  Created by Ahmet Sina on 18.10.2022.
-//
-
 import Foundation
 
 public extension JSONDecoder.KeyDecodingStrategy {
