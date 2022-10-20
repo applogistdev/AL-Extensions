@@ -7,10 +7,10 @@
 
 import UIKit
 
-class ClosureSleeve {
+public class ClosureSleeve {
     let closure: () -> Void
     
-    init (_ closure: @escaping () -> Void) {
+    public init (_ closure: @escaping () -> Void) {
         self.closure = closure
     }
     
@@ -19,7 +19,7 @@ class ClosureSleeve {
     }
 }
 
-extension UIControl {
+public extension UIControl {
     
     /// Add Action with closure style
     /// - Parameters:

@@ -29,4 +29,20 @@ public extension UIViewController {
     var className: String {
         return NSStringFromClass(self.classForCoder).components(separatedBy: ".").last ?? ""
     }
+    
+    /// Current top most shown view controller
+    var topMostViewController : UIViewController {
+		if let presented = presentedViewController {
+			return presented.topMostViewController
+		}
+		
+		if let navigation = self as? UINavigationController {
+			return navigation.visibleViewController?.topMostViewController ?? navigation
+		}
+		
+		if let tab = self as? UITabBarController {
+			return tab.selectedViewController?.topMostViewController ?? tab
+		}
+		return self
+	}
 }

@@ -31,4 +31,17 @@ public extension UIApplication {
         return rootViewController
     }
     
+    /// Current top shown view controller
+    var topMostViewController: UIViewController? {
+		mainKeyWindow?.rootViewController?.topMostViewController
+	}
+    
+	/// Main Key Window for iOS 13+
+	var mainKeyWindow: UIWindow? {
+		UIApplication.shared.connectedScenes
+			.filter { $0.activationState == .foregroundActive }
+			.first(where: { $0 is UIWindowScene })
+			.flatMap { $0 as? UIWindowScene }?.windows
+			.first(where: \.isKeyWindow)
+	}
 }

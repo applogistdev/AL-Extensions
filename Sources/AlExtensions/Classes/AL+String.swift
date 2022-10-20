@@ -9,36 +9,36 @@ import Foundation
 
 public extension String {
 
-    /// Trims the string from whitespaces
-    func trim() -> String {
-        return self.trimmingCharacters(in: .whitespacesAndNewlines)
+    /// Returns trimmed string from trimming characters in whitespaces
+    var trimmed : String {
+        self.trimmingCharacters(in: .whitespacesAndNewlines)
     }
     
     /// Uppercased value in Turkish
     var uppercasedTurkish: String {
-        return self.uppercased(with: Locale(identifier: "tr-TR"))
+        self.uppercased(with: Locale(identifier: "tr-TR"))
     }
     
     /// Url decoded string by adding **removingPercentEncoding**
-    func urlDecoded() -> String? {
-        return self.removingPercentEncoding
+    var urlDecoded : String? {
+        self.removingPercentEncoding
     }
     
     /// Email validation
     /// - Returns: Validation result
-    func isValidEmail() -> Bool {
+    var isValidEmail : Bool {
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
         let emailTest = NSPredicate(format: "SELF MATCHES %@", emailRegEx)
         return emailTest.evaluate(with: self)
     }
     
-    /// Converts html content to NSAttributedString
-    func html2AttributedString() -> NSAttributedString? {
-        return self.data(using: .utf8)?.html2AttributedString()
+    /// Returns NSAttributedString from html content
+    var html2AttributedString: NSAttributedString? {
+        self.data(using: .utf8)?.html2AttributedString()
     }
     
-    /// Converts html content to String
-    func html2String() -> String? {
-        return self.html2AttributedString()?.string
+    /// Return String from HTML content
+    var html2String : String? {
+        self.html2AttributedString?.string
     }
 }
